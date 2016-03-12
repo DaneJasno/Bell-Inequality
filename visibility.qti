@@ -1,0 +1,480 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	5
+<table>
+zustand	37	6	21.02.2016 19:24:28
+geometry	294	839	995	803	minimized	
+header	1[X]	6[X]	2[Y]	3[yEr]	4[Y]	5[yEr]
+ColWidth	100	236	100	100	100	100	
+<com>
+<col nr="1">
+col("1")*2*pi/360
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel	C:/Users/Luka/Documents/Quantenoptik/Bells Inequality/zustand.csv	2
+<data>
+0	0	0	20	10	80	10
+1	10	0.1745329251994	60	10	100	10
+2	20	0.3490658503989	120	10	140	10
+3	30	0.5235987755983	190	10	180	10
+4	40	0.6981317007977	270	10	220	10
+5	50	0.8726646259972	350	10	300	10
+6	60	1.047197551197	420	10	330	10
+7	70	1.221730476396	470	10	370	10
+8	80	1.396263401595	520	10	400	10
+9	90	1.570796326795	580	10	420	10
+10	100	1.745329251994	520	10	380	10
+11	110	1.919862177194	460	10	350	10
+12	120	2.094395102393	380	10	300	10
+13	130	2.268928027593	300	10	250	10
+14	140	2.443460952792	190	10	180	10
+15	150	2.617993877991	120	10	130	10
+16	160	2.792526803191	50	10	100	10
+17	170	2.96705972839	20	10	80	10
+18	180	3.14159265359	20	10	80	10
+19	190	3.316125578789	50	10	100	10
+20	200	3.490658503989	120	10	150	10
+21	210	3.665191429188	220	10	190	10
+22	220	3.839724354388	300	10	250	10
+23	230	4.014257279587	400	10	280	10
+24	240	4.188790204786	480	10	330	10
+25	250	4.363323129986	530	10	390	10
+26	260	4.537856055185	580	10	410	10
+27	270	4.712388980385	590	10	420	10
+28	280	4.886921905584	520	10	400	10
+29	290	5.061454830784	450	10	350	10
+30	300	5.235987755983	380	10	280	10
+31	310	5.410520681182	280	10	250	10
+32	320	5.585053606382	190	10	180	10
+33	330	5.759586531581	100	10	130	10
+34	340	5.934119456781	50	10	100	10
+35	350	6.10865238198	20	10	80	10
+36	360	6.28318530718	20	10	80	10
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	21.02.2016 19:29:43
+geometry	0	839	1395	760	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	10	8	1349	714
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	16	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	13	75	0	0	0
+AxisFont0	MS Shell Dlg 2	13	50	0	0	0
+AxisFont1	MS Shell Dlg 2	13	50	0	0	0
+AxisFont2	MS Shell Dlg 2	13	50	0	0	0
+AxisFont3	MS Shell Dlg 2	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	zustand_6	zustand_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	36	1
+curve	zustand_6	zustand_4	1	0	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	36	1
+ErrorBars	1	zustand_6	zustand_2	zustand_3	1	8	#000000	1	1	1	0
+ErrorBars	1	zustand_6	zustand_4	zustand_5	1	8	#ff0000	1	1	1	1
+curve	Nichtlinear13_1	Nichtlinear13_2	0	1	#000000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	36	1
+<Function>
+<Type>0</Type>
+<Title>F1</Title>
+<Expression>539.6*(sin(x+0.0861))^2+16.8</Expression>
+<Variable>x</Variable>
+<Range>0	6.5</Range>
+<Points>1000</Points>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+curve	Nichtlinear4_1	Nichtlinear4_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	36	1
+<Function>
+<Type>0</Type>
+<Title>F2</Title>
+<Expression>329.3*(sin(x+0.0799))^2+76.5</Expression>
+<Variable>x</Variable>
+<Range>0	6.5</Range>
+<Points>1000</Points>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#0000ff</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	600	0	8	5	0	0
+scale	1	0	600	0	8	5	0	0
+scale	2	-1	7	0	8	5	0	0
+scale	3	-1	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.86046511627907</x>
+<y>576.30161579892</y>
+<right>-0.275747508305648</right>
+<bottom>364.093357271095</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(5)%(5)
+\l(6)%(6)
+\l(7)%(7)
+\l(8)%(8)
+</Text>
+<Font>MS Shell Dlg 2	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Nichtlinear13	37	2	21.02.2016 19:31:37
+geometry	588	839	445	220	minimized	
+header	1[X]	2[Y]
+ColWidth	100	441	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von zustand_2	2
+<data>
+0	0	20.83772318775
+1	0.1745329251994	52.68853442114
+2	0.3490658503989	112.7577548387
+3	0.5235987755983	193.8001499307
+4	0.6981317007977	286.0408107907
+5	0.8726646259972	378.354152392
+6	1.047197551197	459.6058233375
+7	1.221730476396	519.995672964
+8	1.396263401595	552.2397941476
+9	1.570796326795	552.449070001
+10	1.745329251994	520.5982587677
+11	1.919862177194	460.52903835
+12	2.094395102393	379.4866432582
+13	2.268928027593	287.2459823978
+14	2.443460952792	194.9326407969
+15	2.617993877991	113.6809698516
+16	2.792526803191	53.29112022477
+17	2.96705972839	21.04699904116
+18	3.14159265359	20.83772318777
+19	3.316125578789	52.68853442109
+20	3.490658503989	112.7577548388
+21	3.665191429188	193.8001499306
+22	3.839724354388	286.040810791
+23	4.014257279587	378.354152392
+24	4.188790204786	459.6058233372
+25	4.363323129986	519.995672964
+26	4.537856055185	552.2397941476
+27	4.712388980385	552.449070001
+28	4.886921905584	520.5982587677
+29	5.061454830784	460.5290383499
+30	5.235987755983	379.4866432581
+31	5.410520681182	287.2459823983
+32	5.585053606382	194.9326407968
+33	5.759586531581	113.6809698516
+34	5.934119456781	53.29112022471
+35	6.10865238198	21.04699904114
+36	6.28318530718	20.83772318778
+</data>
+</table>
+<table>
+Nichtlinear4	37	2	21.02.2016 19:44:17
+geometry	0	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von zustand_4	2
+<data>
+0	0	78.60014986671
+1	0.1745329251994	97.37197245842
+2	0.3490658503989	133.4855466073
+3	0.5235987755983	182.5850422912
+4	0.6981317007977	238.7483356995
+5	0.8726646259972	295.2013047652
+6	1.047197551197	345.1348882618
+7	1.221730476396	382.5263590783
+8	1.396263401595	402.8657539951
+9	1.570796326795	403.6998418077
+10	1.745329251994	384.928019216
+11	1.919862177194	348.8144450671
+12	2.094395102393	299.7149493832
+13	2.268928027593	243.5516559747
+14	2.443460952792	187.0986869092
+15	2.617993877991	137.1651034128
+16	2.792526803191	99.77363259607
+17	2.96705972839	79.4342376793
+18	3.14159265359	78.60014986672
+19	3.316125578789	97.37197245839
+20	3.490658503989	133.4855466073
+21	3.665191429188	182.5850422912
+22	3.839724354388	238.7483356997
+23	4.014257279587	295.2013047652
+24	4.188790204786	345.1348882616
+25	4.363323129986	382.5263590783
+26	4.537856055185	402.8657539951
+27	4.712388980385	403.6998418077
+28	4.886921905584	384.928019216
+29	5.061454830784	348.814445067
+30	5.235987755983	299.7149493832
+31	5.410520681182	243.551655975
+32	5.585053606382	187.0986869092
+33	5.759586531581	137.1651034127
+34	5.934119456781	99.77363259604
+35	6.10865238198	79.43423767928
+36	6.28318530718	78.60014986674
+</data>
+</table>
+<multiLayer>
+Grafik2	1	1	21.02.2016 19:47:48
+geometry	5	10	1507	781	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	6	-30	1479	743
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	angle [rad]	coincidences [#/s]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	13	75	0	0	0
+AxisFont0	MS Shell Dlg 2	13	50	0	0	0
+AxisFont1	MS Shell Dlg 2	13	50	0	0	0
+AxisFont2	MS Shell Dlg 2	13	50	0	0	0
+AxisFont3	MS Shell Dlg 2	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	zustand_6	zustand_2	1	0	#000000	0	1	5	1	#000000	#000000	0	#000000	14	1	2	0	0	36	1
+curve	zustand_6	zustand_4	1	0	#ff0000	0	1	5	1	#ff0000	#ff0000	0	#000000	14	1	2	0	0	36	1
+ErrorBars	1	zustand_6	zustand_2	zustand_3	1	8	#000000	1	1	1	0
+ErrorBars	1	zustand_6	zustand_4	zustand_5	1	8	#ff0000	1	1	1	1
+<Function>
+<Type>0</Type>
+<Title>F1</Title>
+<Expression>539.6*(sin(x+0.0861))^2+16.8</Expression>
+<Variable>x</Variable>
+<Range>0	6.5</Range>
+<Points>1000</Points>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>1</Style>
+	<Width>1.2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>F2</Title>
+<Expression>329.3*(sin(x+0.0799))^2+76.5</Expression>
+<Variable>x</Variable>
+<Range>0	6.5</Range>
+<Points>1000</Points>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>1</Style>
+	<Width>1.2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	600	0	8	5	0	0
+scale	1	0	600	0	7	5	0	0
+scale	2	0	6.3	1.570796326795	6	5	0	0
+scale	3	0	6.3	1.570796326795	9	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>5.2454148471616</x>
+<y>595.05766062603</y>
+<right>6.25414847161572</right>
+<bottom>415.156507413509</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) H/V basis
+\l(2) +/- basis
+\l(5) A=539.6 +/- 8.6
+        phi=0.0861 +/- 0.082
+        B=16.8 +/- 5.2
+\l(6) A=329.3 +/- 4.6
+        phi=0.0800 +/- 0.071
+        B=76.5 +/- 2.8
+[for: A*sin(x+phi)^2+B]
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[21.02.2016 19:43:41	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: zustand_4, unter Verwendung der Funktion: a*(sin(x+phi))^2+b
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,2831853071800e+00
+a = 3,2930295700043e+02 +/- 4,5406994788376e+00
+b = 7,6498517339078e+01 +/- 2,7428224401308e+00
+phi = -9,1026213913058e+01 +/- 7,0688440725690e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9,7662055794064e+01
+R^2 = 0,993577484595
+Angepasstes R^2 = 0,9929936195582
+RMSE (Standardabweichung) = 9,882411436186
+RSS (Summe der quadrierten Restwerte) = 3.320,509896998
+---------------------------------------------------------------------------------------
+Iterationen = 10
+Status = success
+---------------------------------------------------------------------------------------
+[21.02.2016 19:44:11	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: zustand_4, unter Verwendung der Funktion: a*(sin(x+phi))^2+b
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,2831853071800e+00
+a = 3,2930295700467e+02 +/- 4,5406994792032e+00
+b = 7,6498517337311e+01 +/- 2,7428224399498e+00
+phi = -9,1026213913065e+01 +/- 7,0688440724298e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9,7662055794065e+01
+R^2 = 0,993577484595
+Angepasstes R^2 = 0,9929936195582
+RMSE (Standardabweichung) = 9,882411436186
+RSS (Summe der quadrierten Restwerte) = 3.320,509896998
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21.02.2016 19:44:17	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: zustand_4, unter Verwendung der Funktion: a*(sin(x+phi))^2+b
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,2831853071800e+00
+a = 3,2930295701236e+02 +/- 4,5406994799927e+00
+b = 7,6498517331014e+01 +/- 2,7428224399769e+00
+phi = 7,9973040971086e-02 +/- 7,0688440371325e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9,7662055794060e+01
+R^2 = 0,993577484595
+Angepasstes R^2 = 0,9929936195582
+RMSE (Standardabweichung) = 9,882411436186
+RSS (Summe der quadrierten Restwerte) = 3.320,509896998
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+</log>
